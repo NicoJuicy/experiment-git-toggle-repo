@@ -1,7 +1,6 @@
 {
     "hasCoupons" : "Enabled",
     "hasImages" : "Enabled",
-    "testProtectedBranch": "Enabled",
     "hasPrice" : "Enabled",
     "hasPriceInclusive": "Enabled",
     "isPublic": "Enabled",
