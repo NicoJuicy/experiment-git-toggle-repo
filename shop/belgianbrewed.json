@@ -1,20 +1,55 @@
 {
-    "hasCoupons" : "Enabled",
-    "hasImages" : "Enabled",
-    "hasPrice" : "Enabled",
-    "hasPriceInclusive": "Enabled",
-    "isPublic": "Enabled",
-    "hasProductList":"Disabled",
-    "hasReviews" : {
-      "local" : "Enabled",
-      "dev" : "Enabled",
-      "beta": "Disabled",
-      "prod": "Disabled"
+    "canCompare" : "Disabled",
+    "canOrder" : "Enabled",
+    "canOrderAnonymous" : "Enabled",
+    "canOrderInBulk" : "Disabled",
+    "canRegister" : "Enabled",
+    "canShareOrder" : "Enabled",
+    "canSort" : "Enabled",
+    "canViewProductsAnonymous" : "Enabled",
+    "checkout_canCombineOrder" : "Enabled",
+    "checkout_canConfirmOrder" : "Enabled",
+    "checkout_canDeliver" : "Enabled",
+    "checkout_canPay" : "Enabled",
+    "checkout_canShareOrder" : 
+    {
+        "local": "Enabled",
+        "dev": "Enabled",
+        "beta": "Disabled",
+        "prod": "Disabled"
     },
-    "livePayment":{
-       "local" : "Disabled",
-      "dev" : "Disabled",
-      "beta": "Disabled",
-      "prod": "Enabled"
-    }
+    "hasCoupons" : "Enabled",
+    "hasCustomerZone" : "Enabled",
+    "hasDownloads" : "Disabled",
+    "hasFilters" : "Enabled",
+    "hasImages" : "Enabled",
+    "hasMultipleLanguages" : "Enabled",
+    "hasNewsletter" : "Enabled",
+    "hasOrderHistory" : "Enabled",
+    "hasPageBuilder" : 
+    {
+        "local": "Enabled",
+        "dev": "Enabled",
+        "beta": "Disabled",
+        "prod": "Disabled"
+    },
+    "hasPrice" : "Enabled",
+    "hasPriceInclusive" : "Enabled",
+    "hasProductDetail" : "Enabled",
+    "hasProductGrid" : "Enabled",
+    "hasProductGridWide" : "Disabled",
+    "hasProductList" : "Disabled",
+    "hasReturns" : "Disabled",
+    "hasReviews" : "Disabled",
+    "hasRobots" : "Enabled",
+    "hasTransactions" : "Disabled",
+    "hasWishList" : 
+    {
+        "local": "Enabled",
+        "dev": "Enabled",
+        "beta": "Disabled",
+        "prod": "Disabled"
+    },
+    "isPublic" : "Enabled",
+    "splitCheckoutSteps" : "Enabled"
 }
