@@ -1,5 +1,6 @@
 {
     "hasCoupons" : "Enabled",
+    "test_validate":"Enabled",
     "hasImages" : "Enabled",
     "hasPrice" : "Enabled",
     "hasPriceInclusive": "Enabled",
