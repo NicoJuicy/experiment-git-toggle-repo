@@ -10,5 +10,5 @@ jobs:
       - name: Validate JSON
         uses: docker://orrosenblatt/validate-json-action:latest
         env:
-          INPUT_SCHEMA: /path/to/schema.json
+          INPUT_SCHEMA: /toggle-validation-schema.json
           INPUT_JSONS: /shop/belgianbrewed.json
