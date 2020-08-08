@@ -1,0 +1,14 @@
+{
+    "hasCoupons" : "Enabled",
+    "hasImages" : "Enabled",
+    "hasPrice" : "Enabled",
+    "hasPriceInclusive": "Enabled",
+    "isPublic": "Enabled",
+    "hasProductList":"Disabled",
+    "hasReviews" : {
+      "local" : "Enabled",
+      "dev" : "Enabled",
+      "beta": "Disabled",
+      "prod": "Disabled"
+    }
+}
