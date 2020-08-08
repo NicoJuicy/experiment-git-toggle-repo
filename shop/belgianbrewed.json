@@ -10,5 +10,11 @@
       "dev" : "Enabled",
       "beta": "Disabled",
       "prod": "Disabled"
+    },
+    "livePayment":{
+       "local" : "Disabled",
+      "dev" : "Disabled",
+      "beta": "Disabled",
+      "prod": "Enabled"
     }
 }
