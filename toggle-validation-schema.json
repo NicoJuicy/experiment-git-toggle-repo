@@ -1,26 +1,34 @@
 {
-  "type":"object",
-  "propertyNames": {
-  	"pattern": "^[A-Za-z][A-Za-z0-9]*$",
-  },
-    
-  "patternProperties": {
-    "[a-zA-Z]*": {"$ref": "#/definitions/toggle" },
-  },
-    "definitions": {
-      "toggleEnum": {"enum":["Disabled","Enabled"] },
-      "toggle":{
-        "anyOf" : [
-          {"$ref": "#/definitions/toggleEnum" },
-          {
-            "type":"object",
-             "patternProperties": {
-    			"[a-zA-Z]*": {"$ref": "#/definitions/toggleEnum" },
-  			},
-          },
-          
-        ]
-       
+   "type":"object",
+   "propertyNames":{
+      "pattern":"^[A-Za-z][A-Za-z0-9]*$"
+   },
+   "patternProperties":{
+      "[a-zA-Z]*":{
+         "$ref":"#/definitions/toggle"
       }
-    }
+   },
+   "definitions":{
+      "toggleEnum":{
+         "enum":[
+            "Disabled",
+            "Enabled"
+         ]
+      },
+      "toggle":{
+         "anyOf":[
+            {
+               "$ref":"#/definitions/toggleEnum"
+            },
+            {
+               "type":"object",
+               "patternProperties":{
+                  "[a-zA-Z]*":{
+                     "$ref":"#/definitions/toggleEnum"
+                  }
+               }
+            }
+         ]
+      }
+   }
 }
