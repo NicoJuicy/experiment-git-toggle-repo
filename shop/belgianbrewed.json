@@ -1,7 +1,7 @@
 {
     "hasCoupons" : "Enabled",
     "hasImages" : "Enabled",
-    "testPushToMaster":"Enabled",
+  
     "hasPrice" : "Enabled",
     "hasPriceInclusive": "Enabled",
     "isPublic": "Enabled",
